@@ -11,7 +11,11 @@ Insight requires [Node.js](https://nodejs.org) 8.2 and [MongoDB](https://www.mon
 To get started, clone this repository, then – with `mongod` running – install and run insight:
 
 ```bash
-git clone -b next https://github.com/bitpay/insight.git && cd insight/server
+git clone -b next https://github.com/NavCoin/insight.git && cd insight
 npm install
+cd app/node_modules/@ionic/app-scripts/
+rm -rf node_modules
+npm install
+cd ../../../..
 npm start
 ```
